@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Button colors */
+.btn-add {
+  background: #28a745;
+}
+
+.btn-delete {
+  background: #dc3545;
+}
+
+.btn-primary {
+  background: #007bff;
+}
+
+/* Inputs */
+input {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Card */
+.card {
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* ID Card */
+#id-card {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+}
+
+/* Department list */
+.department {
+  background: #eef;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+}
+button {
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+#id-card {
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+
+  text-align: center; /* ✅ THIS FIXES ALIGNMENT */
+}
+#id-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+#id-card img {
+  display: block;
+  margin: 10px auto;
+}
